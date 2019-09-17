@@ -1,0 +1,42 @@
+.centerContent {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+html { 
+    background: url(../images/koi.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.middle {
+    width:500px;
+    height:500px;
+    background-color :#708090;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color:whitesmoke;
+    padding: 10px 20px 10px 20px;
+    color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.left {
+    width:200px;
+    height:200px;
+    float: left;
+}
+
+.right {
+    width:200px;
+    height:200px;
+    float: right;
+}
