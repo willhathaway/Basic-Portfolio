@@ -34,7 +34,8 @@ img {
     overflow: auto;
     text-align: center;
     float: left;
-    margin: 3px;
+    margin: 3px 3px 40px 3px;
+    opacity: 0.95;
     }
 
 h1 {
@@ -62,7 +63,8 @@ h2 {
     border-color:whitesmoke;
     padding: 100px 20px 0px 20px;
     color: whitesmoke;
-    
+    opacity: 0.95;
+
 }
 
 .right {
@@ -77,6 +79,8 @@ h2 {
     padding: 100px 20px 0px 20px;
     color: whitesmoke;
     top: 50%;
+    opacity: 0.95;
+
 }
 
 a:link {
@@ -117,4 +121,36 @@ a:active {
 
 p {
     margin: 5% 15% 0% 15%;
+}
+
+.image {
+    position: relative;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(29, 44, 44);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 1px black;
+}
+
+h3:hover {
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; 
+    }
+
+
+form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    margin: 10px;
 }
